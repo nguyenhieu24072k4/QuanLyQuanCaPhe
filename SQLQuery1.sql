@@ -20,7 +20,7 @@ create table Account
 	Type int not null,  -- loại tài khoản
 )
 
-create table FoodCategory
+create table FoodCategory  -- Danh sách đồ ăn
 (
 	id int primary key,
 	name nvarchar(100) not null
