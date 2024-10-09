@@ -49,8 +49,11 @@ create table Bill
 create table BillInfo
 (
 	id int primary key,
+	quantity int not null,
 	idBill int foreign key references Bill(id) not null,
 	idFood int foreign key references Food(id) not null,
 
 )
+
+drop table BillInfo
 
